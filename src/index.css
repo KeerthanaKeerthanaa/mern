@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  font-family: 'Inconsolata', monospace !important;
+  background-color: #ffffff !important;
+  background-image: url('https://i.pinimg.com/736x/47/49/e1/4749e19aa00ea9c7b9aa55febd1e9868.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,62 @@
+/* src/components/Home.css */
+.section-content {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  margin: 30px auto;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.section-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.home-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  max-width: 500px;
+  margin: 15px auto;
+  background: #ecf0f1;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Picture Styling */
+.home-hero {
+  width: 250px;  /* Profile pic size */
+  height: 250px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; /* Ensures image fits perfectly */
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.home-hero:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 24px;
+  }
+  .home-description {
+    font-size: 16px;
+  }
+}
